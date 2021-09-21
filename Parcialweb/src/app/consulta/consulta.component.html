@@ -1,0 +1,30 @@
+<div class="contenedor">
+
+    <div class="tabla">
+        <table class="table table-striped" *ngIf='viviendas && viviendas.length'>  
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Identificacion Cliente</th>
+                    <th scope="col">Nombre Cliente</th>
+                    <th scope="col">Proyecto de Vivienda</th>
+                    <th scope="col">Valor Vivienda</th>
+                    <th scope="col">Valor cuota Inicial</th>
+                    <th scope="col">Valor Total Abonado</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let vivienda of viviendas; index as i ">
+                <th scope="row">{{ i + 1 }}</th>
+                <td>{{ vivienda.identificacionCliente }} </td>
+                <td>{{ vivienda.nombreCliente }}</td>
+                <td>{{vivienda.nombreProyecto}}</td>
+                <td>{{ vivienda.valorVivienda }}</td>
+                <td>{{ vivienda.cuotainicial }}</td>
+                <td>{{ vivienda.valorAbonado }}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>

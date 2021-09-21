@@ -1,0 +1,32 @@
+<div class="contenedor">
+
+    <div class="formulario">
+
+        <form>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" [(ngModel)]="vivienda.identificacionCliente" name="identificacionCliente"
+                 placeholder="Identificación del Cliente">
+                <label for="floatingInput">Identificación del Cliente</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" [(ngModel)]="vivienda.nombreCliente" name="nombreCliente"
+                 placeholder="Nombre del Cliente">
+                <label for="floatingInput">Nombre del Cliente</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" [(ngModel)]="vivienda.nombreProyecto" name="proyectoVivienda"
+                 placeholder="Proyecto de Vivienda">
+                <label for="floatingInput">Proyecto de Vivienda</label>
+            </div>
+            
+
+
+            
+            <button type="button" class="btn btn-danger" (click)="calcularCuota()" >Registrar</button>
+        </form>
+
+    </div>
+
+</div>

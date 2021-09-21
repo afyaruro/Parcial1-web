@@ -1,0 +1,13 @@
+.contenedor{
+    width: 90%;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.tabla{
+    width: 60%;
+    height: 450px;
+    margin-left: 20%;
+    margin-top: 25px;
+}
