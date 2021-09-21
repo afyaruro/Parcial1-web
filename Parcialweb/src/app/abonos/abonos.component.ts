@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AbonosComponent implements OnInit {
 
+  abono :number=0;
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  Abonar(){
+
+  }
+
+  
 
 }

@@ -20,4 +20,6 @@ export class ProyectoViviendaService {
     localStorage.setItem('datos', JSON.stringify(viviendas));
   }
 
+ 
+
 }
